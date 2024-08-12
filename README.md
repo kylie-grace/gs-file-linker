@@ -1,3 +1,4 @@
+
 # gs-file-linker
 
 ### Google Apps Script Subdirectory File Linker
@@ -16,24 +17,30 @@ To use this script with your own sheet, you will need the following details:
 
 ### How to Use This Script:
 
-1.  **Open Google Sheets**: Go to the Google Sheet you want to use.
+1.  **Download the script**: 
+    -   Download `importApplicantNames.gs` and open in a text editor.
+
+2.  **Edit the script**:    
+	-   Replace the placeholders in the code for Folder ID, Google Sheet ID, Sheet Name, and Column before you copy/paste in the next step.
+
+3.  **Open Google Sheets**: 
+	- Go to the Google Sheet you want to use.
     
-2.  **Open the Script Editor**:
+4.  **Open the Script Editor**:
     
     -   Click on `Extensions` > `Apps Script`.
-3.  **Add the Script**:
+5.  **Add the Script**:
     
     -   Delete any code in the script editor and replace it with your edited version of the script provided above.
-    - **REMEMBER:** Don't forget to replace the placeholders for Folder ID, Google Sheet ID, Sheet Name, and Column before you copy/paste
     
-4.  **Save and Run**:
+7.  **Save and Run**:
     
     -   Save the script with a name like `ImportApplicantNames`.
     -   Run the `importApplicantNames` function by clicking the play (▶️) button.
-5.  **Authorize the Script**:
+8.  **Authorize the Script**:
     
     -   The first time you run the script, it will ask for authorization. Review the permissions and click "Allow."
-6.  **Check Your Sheet**:
+9.  **Check Your Sheet**:
     
     -   After the script runs, Column A in `Sheet1` will be populated with the filenames in alphabetical order, without the extensions, and linked to the corresponding files in your Google Drive folder.
 
